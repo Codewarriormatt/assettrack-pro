@@ -1,0 +1,2 @@
+# Block web access to the demo SQL file (Apache 2.4 / XAMPP)
+Require all denied

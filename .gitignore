@@ -1,0 +1,30 @@
+# Logs written by scripts/asset_monitor.php
+logs/*
+!logs/.htaccess
+*.log
+
+# Local config overrides and secrets (never commit real passwords)
+config/*.local.php
+config/*.override.php
+.env
+.env.*
+
+# Database dumps: only the fake demo file is tracked
+*.sql
+!database/assettrack_demo.sql
+
+# Backups and Office files
+*.bak
+*.zip
+*.docx
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.qodo/
+
+# Claude Code local settings
+.claude/

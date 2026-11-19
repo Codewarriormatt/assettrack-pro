@@ -1,0 +1,2 @@
+# Block web access to the monitoring logs (Apache 2.4 / XAMPP)
+Require all denied
